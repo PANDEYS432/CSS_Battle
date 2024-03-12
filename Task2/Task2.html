@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LeetCode Dashboard</h1>
+</header>
+
+<nav>
+    <a href="#">Problems</a>
+    <a href="#">Explore</a>
+    <a href="#">Contests</a>
+    <a href="#">Discuss</a>
+    <a href="#">Store</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Recent Problems</h2>
+        <!-- List of recent problems -->
+    </div>
+
+    <div class="card">
+        <h2>Explore</h2>
+        <!-- Explore section content -->
+    </div>
+
+    <div class="card">
+        <h2>Contests</h2>
+        <!-- Contests section content -->
+    </div>
+
+    <div class="card">
+        <h2>Discuss</h2>
+        <!-- Discuss section content -->
+    </div>
+
+    <div class="card">
+        <h2>Store</h2>
+        <!-- Store section content -->
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 LeetCode. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
