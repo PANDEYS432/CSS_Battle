@@ -1,0 +1,79 @@
+.body{
+    background-color: plum;
+}
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ccc; 
+  }
+  
+  .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .icon-circle {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .icon-circle img {
+    width: 40px; 
+    height: 40px;
+  object-fit: cover;
+}
+  .footer {
+    position: relative;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .social-icons img {
+    width: 40px; 
+    height: 40px; 
+  }
+  .triangle1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(50%);
+    width: 10;
+    height: 10;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+  }
